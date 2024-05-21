@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(images/fondoheader.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 16px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: yellow;
+}
+
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.logoRumania {
+    width: 15%;
+    /* Reducir el ancho al 50% */
+    height: 250px;
+    /* Mantener la proporción de la imagen */
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.turismo {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.turismo-content {
+    text-align: center;
+}
+
+.turismo-content h2 {
+    font-size: 45px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-parrafo {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 20px;
+    margin-bottom: 35px;
+}
+
+.turismo-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Atraccion img {
+    padding: 45px;
+    height: 300px;
+}
+
+.Atraccion h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.Rumania-Informacion {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(images/rumaniaFotoConBandera.jpg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.Informacion-content {
+    text-align: center;
+}
+
+.Informacion-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.Informacion-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.informacion-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5opx;
+    ;
+}
+
+.informacion {
+    padding: 0 100px;
+}
+
+.informacion img {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.informacion h3 {
+    color: #E1E2E6;
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-2 {
+    background-image: url(images/flag-romania.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(images/pobla.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 25px 0;
+}
+
+footer {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+}
